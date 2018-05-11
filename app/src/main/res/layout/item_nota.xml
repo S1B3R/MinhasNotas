@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView
+        android:id="@+id/IdSQL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"/>
+
+    <LinearLayout
+        android:id="@+id/DadosNota"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/Titulo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/titulo"
+            android:textSize="20sp"/>
+        <TextView
+            android:id="@+id/DataCriacao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/data"
+            android:textSize="15sp"/>
+        <TextView
+            android:id="@+id/Resumo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/texto"
+            android:maxLength="40"
+            android:textSize="17sp"/>
+    </LinearLayout>
+
+    <CheckBox
+        android:id="@+id/CheckBoxDeletar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:visibility="gone"/>
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Minhas Notas</string>
+    <string name="deletar">Deletar</string>
+    <string name="salvar">Salvar</string>
+    <string name="titulo">Título</string>
+    <string name="data">Data</string>
+    <string name="texto">Texto</string>
+    <string name="editar">Editar</string>
+    <string name="title_activity_criar_editar_texto">ActivityCriarEditarTexto</string>
+    <string name="novo">+</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="dialogDeletar">Deseja deletar essa nota?</string>
+    <string name="sim">Sim</string>
+    <string name="nao">Não</string>
+</resources>
